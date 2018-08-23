@@ -66,6 +66,9 @@
         'report/cooperator_register_G001.xml',
         'data/mail_template_data.xml',
     ],
+    'demo': [
+        'data/demo_data.xml',
+    ],
     'installable': True,
     'application': True,
 }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data noupdate="0">
+		<!-- Subscription Request -->
+		<record id="subscription_request_natural_person__invalid_1" model="subscription.request">
+            <field name="name">Robert Durand</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="state">draft</field>
+        </record>
+
+        <record id="subscription_request_natural_person_draft_1" model="subscription.request">
+            <field name="name">Hermann Hesse</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="state">draft</field>
+            <field name="skip_control_ng">True</field>
+
+        </record>
+	</data>
+</openerp>
